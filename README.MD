@@ -1,8 +1,6 @@
 # Trybe
 
-This repository contains all the learning activities developed by _["YourNameHere"]("YourLinkedinHere")_ while studying at [Trybe](https://www.betrybe.com/) :rocket:
-
-_"Trybe is a school of the future for anyone who wants to improve their life and build a successful career in technology, where a person only pays when they get a good job."_
+This repository contains all the learning activities developed by _[Alecsandro Medeiros](https://www.linkedin.com/in/alecsandro-medeiros/)_ while studying at [Trybe](https://www.betrybe.com/) :rocket:
 
 The program has over 1,500 hours of classroom and online classes, covers introduction to software development, front-end, back-end, computer science, software engineering, agile methodologies, and behavioral skills.
 
