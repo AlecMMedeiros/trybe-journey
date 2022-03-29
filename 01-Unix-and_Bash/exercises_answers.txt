@@ -1,0 +1,96 @@
+﻿Answers:
+
+1.3 – P1 – Part I:
+
+    1. mkdir unix_tests | cd unix_test
+    2. touch trybe.txt | ls
+    3. cp trybe.txt trybe_backup.txt | ls
+    4. mv trybe.txt trybe2.txt | ls
+    5. mkdir backup | ls
+    6. mv trybe_backup.txt backup | ls \backup
+    7. mkdir backup2
+    8. mv backup/trybe_backup.txt backup2
+    9. rmdir backup ou rm -r backup
+    10. mv backup2 backup
+    11. pwd
+    12. rm -r backup
+    13. clear
+    14. head -5 skills.txt
+    15. tail -4 skills.txt
+    16. rm *.txt
+
+1.3 – P2 – Part II:
+
+    2. cat countries.txt
+    3. less countries.txt
+    4. less countries.txt | /Zambia
+    5. grep "Brazil" countries.txt
+    6. grep -i "brazil" countries.txt
+    7. grep -iv "fox" phrases.txt
+    8. wc -w phrases.txt
+    9. wc -l phrases.txt
+    10. touch empty.tbt empty.pdf
+    11. ls -a
+    12. ls *.txt
+    13. ls  *.tbt  *.txt
+    14. man –help
+
+1.4– P1 – Part I:
+
+    1. cd unix_tests
+    2. cat > skills2.txt
+	Internet
+	Unix
+	Bash
+	crtl + d
+    3. cat >> skills2.txt
+	Jscript
+	SQL
+	HTML
+	NodeJs
+	CSS
+	ctrl + d
+    4. sort < skills2.txt
+    5. ws -l skills2.txt
+    6. sort skills2.txt | head -3 > top_skills.txt
+    7. cat > phrases2.txt
+	"Casa de ferreiro"
+	"Espeto de pau"
+	"Eu amo o Brasil"
+	"Abra a porta"
+    8. grep "br" phrases2.txt | wc -l
+    9. grep -v "br" phrases2.txt | wc -l
+    10. cat >> phrases2.txt
+	Brazil
+	Germany
+    11. cat phrases2.txt countries.txt > bunch_of_things.txt
+    12. sort bunch_of_things.txt
+
+1.4– P1 – Part II:
+
+    1. cd unix_tests
+    2. ls -l
+    3. chmod a=rw bunch_of_things.txt
+    4. chmod a-w bunch_of_things.txt
+    5. chmod 644 bunch_of_things.txt
+1.4– P1 – Part III:
+
+    1. ps
+    2. sleep 30 &
+    3. kill 15918
+    4. sleep 30
+	ctrl + z
+	jobs
+	bg %1
+    5. sleep 300 &
+    6. sleep 200
+	crtl + z
+	sleep 100
+	crtl + z
+    7. jobs
+	fg %1
+	crtl + z
+    8. jobs
+	bg %2
+    9. ps | grep sleep
+	kill #insert the PID
