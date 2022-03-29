@@ -90,7 +90,7 @@ The program has over 1,500 hours of classroom and online classes, covers introdu
 - [ ] 10-1: _Introduction - Front-end_
 - [ ] 10-1: _Introduction - React_
 - [ ] 10-1: _'Hello, world' in React!_
-- 10-2: _React components_
+- [ ] 10-2: _React components_
 - [ ] 10-3: [Project - Solar System]()_
 
 ##### Block 11: Components with State, Events and Forms with React
@@ -103,12 +103,12 @@ The program has over 1,500 hours of classroom and online classes, covers introdu
 
 - [ ] 12-1: _Component Lifecycle_
 - [ ] 12-2: _React Router_
-- 12-3: _[Project - TrybeTunes]()_
+- [ ] 12-3: _[Project - TrybeTunes]()_
 
 ##### Block 13: Agile Methodologies
 
 - [ ] 13-1: _Agile methodologies_
-- 13-2: _[Project - Frontend Online Store]()_
+- [ ] 13-2: _[Project - Frontend Online Store]()_
 
 ##### Block 14: Automated testing with React Testing Library
 
@@ -129,13 +129,13 @@ The program has over 1,500 hours of classroom and online classes, covers introdu
 
 ##### Block 16: Project Trivia Game
 
-- 16-1: _[Project - Trivia Game]()_
+- [ ] 16-1: _[Project - Trivia Game]()_
 
 ##### Block 17: Context API and React Hooks
 
 - [ ] 17-1: _React's Context API_
 - [ ] 17-2: _React Hooks - useState and useContext_
-- 17-3: _React Hooks - useEffect and custom Hooks_
+- [ ] 17-3: _React Hooks - useEffect and custom Hooks_
 - [ ] 17-4: _[Project - StarWars Datatable with Context API and Hooks]()_
 
 ##### Block 18: Project Recipe App
@@ -215,7 +215,7 @@ The program has over 1,500 hours of classroom and online classes, covers introdu
 
 - [ ] 27-1: _Introduction to Object Oriented Programming_
 - [ ] 27-2: _Herance and Interfaces_
-- 27-3: _Polymorphism_
+- [ ] 27-3: _Polymorphism_
 - [ ] 27-4: _SOLID - Introduction and S, O and D Principles_
 - [ ] 27-5: _SOLID - Principles L and I_
 - [ ] 27-6: _[Project - Trybe and Dragons]()_
