@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+/* Classes auxiliares */
+
+.wd50{
+    width: 50%;
+}
+
+body{
+    background-color:aliceblue;
+    font-family: Montserrat, sans-serif;
+    color: #333;
+    padding: 15px 5px;  
+}
+
+header{
+    color: #333;
+    display:flex;
+    top: 0;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: rgb(68, 201, 190);
+    border-radius: 10px;
+    padding: 0 5px;
+}
+h1{
+    margin-top: 10px;    
+    color: #333;    
+    border-radius: 10px;
+    padding: 0 5px;
+}
+h2, h3{
+    margin-top: 10px;    
+    color: #333;
+    background-color:rgb(68, 201, 190);
+    border-radius: 10px;
+    padding: 0 5px;
+
+}
+p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+nav{
+    text-align: right;
+    
+}
+nav > a, nav a:link, nav:visited{  
+   padding: 5px 10px;
+   color: #333;
+   text-decoration: none;
+   
+}
+nav a:hover{
+    color: rgb(68, 201, 190);
+    background-color: #333;
+}
+
+.quem a:link, .quem a:visited{
+    color: #333;
+    text-decoration: none;
+}
+.quem a:hover{
+    color: antiquewhite;
+    background-color: #333;
+}
+
+td:nth-child(odd){
+    text-align: left;
+    padding: 0 5px;
+    background-color: rgb(68, 201, 190);
+    color: black;
+    font-style: normal;
+}
+td:nth-child(even){
+    text-align: left;
+    
+    padding: 0 5px;
+    background-color: rgb(68, 201, 190);
+    color: black;
+    font-style: italic;
+}
+
+thead,
+tfoot, caption{
+    background-color: rgb(68, 201, 190);
+    color: black;   
+}
+
+.boxeador > section:first-of-type{
+display: flex;
+}
+
+.boxeador p{
+    width: 50%;
+    text-align: justify;
+    margin-right: 10px;
+}
+.boxeador img{
+    width: 10%;
+    border-radius: 10px;
+    
+}
+
+.referencias a, .referencias a:link, .referencias a:visited{
+    display: block;
+    width: fit-content;
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+   
+}
+.referencias a:hover{
+    color: antiquewhite;
+    background-color: #333;
+}
+
+aside{ 
+   float: right;  
+   position:absolute; 
+   right: 3vw;
+   bottom: 35vh;   
+   padding: 5px 10px;   
+   width: fit-content;
+   height: 10vh;
+   border-radius: 10px;
+      
+}
+aside a:visited, aside a:link{
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(68, 201, 190);
+    text-decoration: none; 
+}
+
+aside a:hover{
+    color: black;
+    background-color: rgb(68, 201, 190);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color:  rgb(68, 201, 190);
+    border-radius: 10px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
