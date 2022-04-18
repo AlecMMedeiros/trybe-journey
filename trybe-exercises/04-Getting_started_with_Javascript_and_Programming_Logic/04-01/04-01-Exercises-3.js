@@ -1,5 +1,5 @@
 /*
-Make a program that returns the largest of three numbers.
+Make a program that returns the biggest of three numbers.
 Define at the beginning of the program three constants with
 the values that will be compared.
 */
