@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+  color:rgb(rgb(80, 74, 74), green, blue);
+  background-color:antiquewhite;
+}
+
+fieldset {
+  border-radius: 1%;
+}
+
+form {
+  margin: 40px;
+}
+
+textarea {
+  display: block;
+  width: 80%;
+}
+
+button {
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: bisque;
+  border-radius: 4px;
+  }
+
+.title {
+  text-align: center;   
+}
+
+.form-container {
+  padding: 5px;
+}
+
+.checker {
+  font-size: 12px;    
+}
+
+.buttons {
+  display: block;
+  padding: 5px;
+}
+
+#field-name {
+  margin-left: 9px;    
+}
