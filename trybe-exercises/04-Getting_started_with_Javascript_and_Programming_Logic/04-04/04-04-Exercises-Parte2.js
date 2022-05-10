@@ -78,7 +78,7 @@ function brakeAndSum(number) {
 }
 brakeAndSum(number);
 
-console.log('6 --------------------');
+console.log('7 --------------------');
 //7 - Crie uma função que receba uma string word e outra string ending. Verifique se a string ending é o final da string word. Considere que a string ending sempre será menor que a string word.
 let string1 = 'joaofernando';
 let string2 = 'fernando';
@@ -90,3 +90,43 @@ function verificaFimPalavra(string1, string2) {
 };
 
 console.log(verificaFimPalavra(string1, string2));
+
+// Bônus: A partir do array de frutas basket, retorne um objeto que contenha o nome da fruta como chave e a quantidade de vezes que ela aparece no array como valor. Por exemplo, o array ['Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva'], deverá retornar { Melancia: 3, Abacate: 1, Uva: 1 } quando passado como argumento para a função. Em seguida, imprima esse resultado na tela com uma mensagem no seguinte formato: Sua cesta possui: x Melancias, x Abacates...
+const basket = [
+  'Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva', 'Laranja',
+  'Jaca', 'Pera', 'Melancia', 'Uva', 'Laranja', 'Melancia',
+  'Banana', 'Uva', 'Pera', 'Abacate', 'Laranja', 'Abacate',
+  'Banana', 'Melancia', 'Laranja', 'Laranja', 'Jaca', 'Uva',
+  'Banana', 'Uva', 'Laranja', 'Pera', 'Melancia', 'Uva',
+  'Jaca', 'Banana', 'Pera', 'Abacate', 'Melancia', 'Melancia',
+  'Laranja', 'Pera', 'Banana', 'Jaca', 'Laranja', 'Melancia',
+  'Abacate', 'Abacate', 'Pera', 'Melancia', 'Banana', 'Banana',
+  'Abacate', 'Uva', 'Laranja', 'Banana', 'Abacate', 'Uva',
+  'Uva', 'Abacate', 'Abacate', 'Melancia', 'Uva', 'Jaca',
+  'Uva', 'Banana', 'Abacate', 'Banana', 'Uva', 'Banana',
+  'Laranja', 'Laranja', 'Jaca', 'Jaca', 'Abacate', 'Jaca',
+  'Laranja', 'Melancia', 'Pera', 'Jaca', 'Melancia', 'Uva',
+  'Abacate', 'Jaca', 'Jaca', 'Abacate', 'Uva', 'Laranja',
+  'Pera', 'Melancia', 'Jaca', 'Pera', 'Laranja', 'Jaca',
+  'Pera', 'Melancia', 'Jaca', 'Banana', 'Laranja', 'Jaca',
+  'Banana', 'Pera', 'Abacate', 'Uva',
+];
+
+function repetedFruits(basket) {
+  let objectNumbers = {};
+  for (let index = 0; index < basket.length; index += 1 ) {
+    let count = 0    
+    for (let index2 = 0; index2 < basket.length; index2 += 1) {
+      if (basket[index] === basket[index2]) {
+        count += 1;
+        objectNumbers[basket[index]] = count;
+      }
+    }
+  }
+  let result = 'Sua cesta possui: ';
+    for (let keys in objectNumbers ) {
+      result = result + objectNumbers[keys] + ' ' + keys + ', ';
+    }
+  console.log(result.replace(/,\s*$/, '.'));  
+}
+repetedFruits(basket);
